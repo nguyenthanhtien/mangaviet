@@ -41,10 +41,10 @@ const Footer = () => {
                             <p className="mt-0.5">
                                 Email :
                                 <Link
-                                    href="mailto:ree6i6x@gmail.com"
+                                    href="mailto:mangari6@gmail.com"
                                     className="ml-1"
                                 >
-                                    <i>ree6i6x@gmail.com</i>
+                                    <i>mangari6@gmail.com</i>
                                 </Link>
                             </p>
                             <p>Vui lòng gửi email cho chúng tôi</p>
