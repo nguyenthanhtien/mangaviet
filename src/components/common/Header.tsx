@@ -116,10 +116,10 @@ const Header = ({
                                                     src="/logo.png"
                                                     width={32}
                                                     height={32}
-                                                    alt="ztruyện"
+                                                    alt="Manga Việt"
                                                 ></Image>
                                                 <p className="text-[15px] font-bold first-letter:uppercase first-letter:text-[#32aaff] first-letter:text-xl">
-                                                    ztruyện
+                                                    Manga Việt
                                                 </p>
                                             </Link>
                                             <ModeToggle></ModeToggle>

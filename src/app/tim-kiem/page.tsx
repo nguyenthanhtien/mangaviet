@@ -9,8 +9,8 @@ export async function generateMetadata({
 }) {
     const keyword = (await searchParams).keyword || '';
     return {
-        title: `${keyword} - Kết quả tìm kiếm | Ztruyện`,
-        description: `Tìm truyện tranh - Tất cả truyện đều có thể tìm thấy tại Ztruyện`,
+        title: `${keyword} - Kết quả tìm kiếm | Manga Việt`,
+        description: `Tìm truyện tranh - Tất cả truyện đều có thể tìm thấy tại Manga Việt`,
         keywords: [
             `tìm truyện tranh`,
             `tìm truyện tiếng việt`,
@@ -25,8 +25,8 @@ export async function generateMetadata({
             },
         },
         openGraph: {
-            title: `${keyword} - Kết quả tìm kiếm | Ztruyện`,
-            description: `Tìm truyện tranh - Tất cả truyện đều có thể tìm thấy tại Ztruyện`,
+            title: `${keyword} - Kết quả tìm kiếm | Manga Việt`,
+            description: `Tìm truyện tranh - Tất cả truyện đều có thể tìm thấy tại Manga Việt`,
             images: [
                 {
                     url: '/logo-all.png',

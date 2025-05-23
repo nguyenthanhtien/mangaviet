@@ -12,10 +12,10 @@ const Footer = () => {
                                     src="/logo.png"
                                     width={50}
                                     height={50}
-                                    alt="ztruyện"
+                                    alt="Manga Việt"
                                 ></Image>
                                 <p className="text-lg md:text-[25px] font-bold first-letter:uppercase first-letter:text-[#32aaff] first-letter:text-2xl md:first-letter:text-4xl">
-                                    ztruyện
+                                    Manga Việt
                                 </p>
                             </Link>
                             <div className="flex flex-wrap text-xs md:text-sm gap-[30px]">
@@ -70,7 +70,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <p className="mt-5 text-xs md:text-sm font-semibold">
-                        Copyright @ {new Date().getFullYear()} Ztruyện
+                        Copyright @ {new Date().getFullYear()} Manga Việt
                     </p>
                 </div>
             </div>

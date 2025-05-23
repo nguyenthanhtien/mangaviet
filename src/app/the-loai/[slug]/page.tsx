@@ -21,8 +21,8 @@ export async function generateMetadata({
     const genreName: string = res?.data?.data.titlePage || 'Tất cả';
 
     return {
-        title: `${genreName === 'Tất cả' ? 'Tất cả thể loại' : `Thể loại - Truyện ${genreName}`} - Ztruyện`,
-        description: `Khám phá những câu chuyện hấp dẫn thuộc thể loại ${genreName}. Đọc ngay các truyện hay nhất, mới nhất về ${genreName} chỉ có tại Ztruyện`,
+        title: `${genreName === 'Tất cả' ? 'Tất cả thể loại' : `Thể loại - Truyện ${genreName}`} - Manga Việt`,
+        description: `Khám phá những câu chuyện hấp dẫn thuộc thể loại ${genreName}. Đọc ngay các truyện hay nhất, mới nhất về ${genreName} chỉ có tại Manga Việt`,
         keywords: [
             `truyện tranh ${genreName}`,
             `truyện ${genreName}`,
@@ -35,8 +35,8 @@ export async function generateMetadata({
             },
         },
         openGraph: {
-            title: `Thể loại - Truyện ${genreName} - Ztruyện`,
-            description: `Khám phá những câu chuyện hấp dẫn thuộc thể loại ${genreName}. Đọc ngay các truyện hay nhất, mới nhất về ${genreName} chỉ có tại Ztruyện`,
+            title: `Thể loại - Truyện ${genreName} - Manga Việt`,
+            description: `Khám phá những câu chuyện hấp dẫn thuộc thể loại ${genreName}. Đọc ngay các truyện hay nhất, mới nhất về ${genreName} chỉ có tại Manga Việt`,
             images: [
                 {
                     url: '/logo-all.png',

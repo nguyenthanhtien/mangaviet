@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://google.com'),
-    title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Ztruyện ',
+    title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Manga Việt ',
     description:
         'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại google.com',
     generator: 'Next.js',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         telephone: false,
     },
     openGraph: {
-        title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Ztruyện ',
+        title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Manga Việt ',
         description:
             'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại google.com',
         images: [
