@@ -21,7 +21,7 @@ export async function generateMetadata({
 
     return {
         title: `${chapter?.comic_name} - Chap ${chapter?.chapter_name} Next Chap ${Number(chapter?.chapter_name) + 1}  Tiếng Việt`,
-        description: `Đọc truyện ${chapter?.comic_name} chap ${chapter?.chapter_name} next chap ${Number(chapter?.chapter_name) + 1}  tiếng việt Mới nhất nhanh nhất tại ztruyen.io.vn`,
+        description: `Đọc truyện ${chapter?.comic_name} chap ${chapter?.chapter_name} next chap ${Number(chapter?.chapter_name) + 1}  tiếng việt Mới nhất nhanh nhất tại google.com`,
         keywords: [
             `${chapter?.comic_name} ${chapter?.chapter_name}`,
             `${chapter?.comic_name} chap ${chapter?.chapter_name}`,
@@ -37,7 +37,7 @@ export async function generateMetadata({
         },
         openGraph: {
             title: `${chapter?.comic_name} - Chap ${chapter?.chapter_name} Next Chap ${Number(chapter?.chapter_name) + 1}  Tiếng Việt`,
-            description: `Đọc truyện ${chapter?.comic_name} chap ${chapter?.chapter_name} next chap ${Number(chapter?.chapter_name) + 1}  tiếng việt Mới nhất nhanh nhất tại ztruyen.io.vn`,
+            description: `Đọc truyện ${chapter?.comic_name} chap ${chapter?.chapter_name} next chap ${Number(chapter?.chapter_name) + 1}  tiếng việt Mới nhất nhanh nhất tại google.com`,
             images: [
                 {
                     url: '/logo-all.png',

@@ -21,8 +21,8 @@ export async function generateMetadata({
     const status = res?.data?.data?.titlePage;
 
     return {
-        title: `${status} - ztruyen.io.vn`,
-        description: `${status} tại ztruyen.io.vn`,
+        title: `${status} - google.com`,
+        description: `${status} tại google.com`,
         keywords: [
             `Truyện tranh`,
             `manga`,
@@ -37,8 +37,8 @@ export async function generateMetadata({
             },
         },
         openGraph: {
-            title: `Truyện ${status} - ztruyen.io.vn`,
-            description: `Truyện ${status} tại ztruyen.io.vn`,
+            title: `Truyện ${status} - google.com`,
+            description: `Truyện ${status} tại google.com`,
             images: [
                 {
                     url: '/logo-all.png',

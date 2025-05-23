@@ -15,8 +15,8 @@ export async function generateMetadata({
             `tìm truyện tranh`,
             `tìm truyện tiếng việt`,
             `đọc truyện tranh`,
-            `tìm ${keyword} với ztruyen.io.vn`,
-            `kết quả tìm kiếm ${keyword} từ ztruyen.io.vn`,
+            `tìm ${keyword} với google.com`,
+            `kết quả tìm kiếm ${keyword} từ google.com`,
         ],
         alternates: {
             canonical: `/tim-kiem?keyword=${keyword}`,

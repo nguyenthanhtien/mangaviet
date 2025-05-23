@@ -25,12 +25,12 @@ const Header = ({
                     <Link href="/" className="flex items-center">
                         <Image
                             src="/logo.png"
-                            width={32}
-                            height={32}
-                            alt="ztruyện"
+                            width={64}
+                            height={64}
+                            alt="Manga Việt Nam"
                         ></Image>
                         <p className="text-[15px] font-bold first-letter:uppercase first-letter:text-[#32aaff] first-letter:text-xl">
-                            ztruyện
+                            Manga Việt Nam
                         </p>
                     </Link>
                     {!asChild && (

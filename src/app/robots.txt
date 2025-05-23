@@ -106,4 +106,4 @@ Disallow: /*.live*  # Blocks anything ending in .live
 Disallow: /*⭕*
 Disallow: /*⭐*
 
-Sitemap: https://ztruyen.io.vn/sitemap.xml
+Sitemap: https://google.com/sitemap.xml

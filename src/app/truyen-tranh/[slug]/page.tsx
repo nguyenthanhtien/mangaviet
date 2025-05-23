@@ -29,7 +29,7 @@ export async function generateMetadata({
 
     return {
         title: `${comicName} Tiếng Việt`,
-        description: `Đọc truyện tranh ${comicName} tiếng việt. Mới nhất nhanh nhất tại Ztruyen.io.vn`,
+        description: `Đọc truyện tranh ${comicName} tiếng việt. Mới nhất nhanh nhất tại google.com`,
         keywords: [
             `${comicName}`,
             `${comicName} tiếng việt`,
@@ -43,7 +43,7 @@ export async function generateMetadata({
         },
         openGraph: {
             title: `${comicName} Tiếng Việt`,
-            description: `Đọc truyện tranh ${comicName} tiếng việt. Mới nhất nhanh nhất tại Ztruyen.io.vn`,
+            description: `Đọc truyện tranh ${comicName} tiếng việt. Mới nhất nhanh nhất tại google.com`,
             images: [
                 {
                     url: `${res?.data?.data?.APP_DOMAIN_CDN_IMAGE}/uploads/comics/${res?.data?.data?.item?.thumb_url}`,

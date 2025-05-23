@@ -5,10 +5,10 @@ import Carousel from '@/components/common/carousel';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://ztruyen.io.vn'),
+    metadataBase: new URL('https://google.com'),
     title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Ztruyện ',
     description:
-        'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại ztruyen.io.vn',
+        'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại google.com',
     keywords: [
         'doc truyen tranh',
         'manga',

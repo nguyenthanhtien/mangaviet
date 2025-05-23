@@ -12,12 +12,12 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://ztruyen.io.vn'),
+    metadataBase: new URL('https://google.com'),
     title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Ztruyện ',
     description:
-        'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại ztruyen.io.vn',
+        'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại google.com',
     generator: 'Next.js',
-    applicationName: 'ztruyen.io.vn Atom Feed - Rss,',
+    applicationName: 'Atom Feed - Rss,',
     referrer: 'origin-when-cross-origin',
     keywords: [
         'doc truyen tranh',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Đọc truyện tranh Manhwa, Manga, Manhua Online - Ztruyện ',
         description:
-            'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại ztruyen.io.vn',
+            'Web đọc truyện tranh manhwa, manhua, manga, ngôn tình, tiên hiệp, kiếm hiệp online hay và mới nhất cập nhật liên tục tại google.com',
         images: [
             {
                 url: '/logo-all.png',

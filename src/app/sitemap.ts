@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default async function sitemap() {
-    const baseURL = 'https://ztruyen.io.vn';
+    const baseURL = 'https://google.com';
     const resGenres = await axios.get(`https://otruyenapi.com/v1/api/the-loai`);
     const resHome = await axios.get(
         `https://otruyenapi.com/v1/api/danh-sach/truyen-moi`
